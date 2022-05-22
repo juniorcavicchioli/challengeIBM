@@ -11,6 +11,9 @@ public class Empresa extends Dados {
 	private static int getNextId() {
 		return nextId++;
 	}
+	public int getId() {
+		return id;
+	}
 	public ArrayList<Vaga> getVagas() {
 		return vagas;
 	}
